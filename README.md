@@ -20,8 +20,8 @@ Assignment focusing on:
 
 > Replace these links with your real deployed URLs
 
--   🔗 Frontend (Vercel/Netlify): https://your-frontend-demo-link.com\
--   🔗 Backend API (Render/Railway): https://your-backend-demo-link.com
+-   🔗 Frontend (Render): https://quillzy-blog-editor-1.onrender.com 
+-   🔗 Backend API (Render): https://quillzy-blog-editor.onrender.com
 
 ------------------------------------------------------------------------
 
