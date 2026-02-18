@@ -34,7 +34,7 @@ Frontend (React + Lexical + Zustand) ↓ FastAPI Backend (JWT + REST APIs)
 
 Architecture Diagram:
 
-![Architecture Diagram](./screenshots/architecture.png)
+![Architecture Diagram](./screenshot/architecture.png)
 
 ------------------------------------------------------------------------
 
@@ -221,7 +221,7 @@ smart-editor/
 
 Create a new account using email and password.
 
-![Sign Up](./screenshots/signup.png)
+![Sign Up](./screenshot/signup.png)
 
 ------------------------------------------------------------------------
 
@@ -229,7 +229,7 @@ Create a new account using email and password.
 
 Login using JWT authentication.
 
-![Sign In](./screenshots/signin.png)
+![Sign In](./screenshot/signin.png)
 
 ------------------------------------------------------------------------
 
@@ -237,7 +237,7 @@ Login using JWT authentication.
 
 Lexical rich text editor with formatting, stats, and drafts.
 
-![Editor](./screenshots/editor.png)
+![Editor](./screenshot/editor.png)
 
 ------------------------------------------------------------------------
 
@@ -245,7 +245,7 @@ Lexical rich text editor with formatting, stats, and drafts.
 
 Send content to AI and receive improved grammar.
 
-![Fix Grammar](./screenshots/fix-grammar.png)
+![Fix Grammar](./screenshot/fix-grammar.png)
 
 ------------------------------------------------------------------------
 
@@ -253,7 +253,7 @@ Send content to AI and receive improved grammar.
 
 Generate a concise summary of blog content.
 
-![Summarize](./screenshots/summarize.png)
+![Summarize](./screenshot/summarize.png)
 
 ------------------------------------------------------------------------
 
@@ -261,7 +261,7 @@ Generate a concise summary of blog content.
 
 Switch to preview layout (Classic / Bento / Card / Magazine).
 
-![Preview](./screenshots/preview.png)
+![Preview](./screenshot/preview.png)
 
 ------------------------------------------------------------------------
 
@@ -269,7 +269,7 @@ Switch to preview layout (Classic / Bento / Card / Magazine).
 
 Stored Lexical JSON + metadata.
 
-![Database](./screenshots/database.png)
+![Database](./screenshot/database.png)
 
 ------------------------------------------------------------------------
 
