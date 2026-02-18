@@ -167,10 +167,51 @@ This ensures scalability and clean system design.
 
 # 📁 Project Structure
 
-smart-editor/ │ ├── backend/ │ ├── routes/ │ ├── main.py │ ├──
-database.py │ ├── src/ │ ├── components/ │ │ ├── Editor/ │ │ ├──
-AuthPage.jsx │ ├── store/ │ ├── hooks/ │ ├── services/ │ └── App.jsx │
-├── ARCHITECTURE.md └── README.md
+smart-editor/
+│
+├── backend/
+│   ├── main.py                 # FastAPI entry point
+│   ├── database.py             # MongoDB connection setup
+│   ├── routes/
+│   │   ├── auth.py             # Authentication endpoints (JWT)
+│   │   ├── posts.py            # Create, update, publish posts
+│   │   ├── drafts.py           # Draft management
+│   │   └── ai.py               # AI summary & grammar endpoints
+│   └── test_api_flow.py        # Backend API testing script
+│
+├── src/
+│   ├── components/
+│   │   ├── AuthPage.jsx
+│   │   ├── Editor/
+│   │   │   ├── LexicalEditor.jsx
+│   │   │   ├── BlockEditor.jsx
+│   │   │   ├── PreviewMode.jsx
+│   │   │   ├── PreviewLayouts.jsx
+│   │   │   ├── ToolbarPlugin.jsx
+│   │   │   └── MenuBar.jsx
+│   │   └── ui/                 # Reusable UI components
+│   │
+│   ├── store/
+│   │   ├── useAuthStore.js
+│   │   └── useEditorStore.js
+│   │
+│   ├── hooks/
+│   │   └── useDebounce.js      # Custom debounce hook (Auto-save logic)
+│   │
+│   ├── services/
+│   │   └── api.js              # Axios instance with JWT interceptor
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── public/
+├── ARCHITECTURE.md
+├── README.md
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+
 
 ------------------------------------------------------------------------
 
